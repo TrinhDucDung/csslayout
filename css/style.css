@@ -43,7 +43,6 @@
 }
 .mid {
     width: 60%;
-    height: 1000px;
     float: left;
 }
 .mid-top {
@@ -60,10 +59,10 @@
 }
 .mid-bot {
     width: 100%;
-    height: 400px;
+    height: 500px;
 }
 .new {
-    width: 30%;
+    width: 31%;
     height: 200px;
     margin: 1%;
     float: left;
@@ -88,6 +87,7 @@
     width: 100%;
     height: 250px;
     margin-top: 10px;
+    background: red;
 }
 .footer {
     width: 100%;
@@ -103,4 +103,31 @@
 }
 .footer2 {
     float: right;
+}
+@media only screen and (max-width: 1000px) {
+    .left {
+        display: none;
+    }
+    .mid {
+        width: 70%;
+    }
+    .right {
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 777px) {
+    .right {
+        display: none;
+    }
+    .mid {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .hotnews {
+        width: 100%;
+    }
+    .new {
+        width: 48%;
+    }
 }
